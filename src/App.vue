@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
 
   </head>
   <div id="app" variant="transparent">
@@ -125,7 +126,9 @@ footer {
 }
 #h1-name {
   font-size: 180%;
-  font-family: 'Audiowide', cursive;
+  // font-family: 'Audiowide', cursive;
+  font-family: 'Faster One', cursive;
+
 
 }
 
