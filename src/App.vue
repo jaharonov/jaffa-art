@@ -27,9 +27,18 @@
     <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
  
-      <b-nav-item class="nav-items" href="#">PROJECTS</b-nav-item>
-      <b-nav-item class="nav-items" href="#">ABOUT</b-nav-item>
-    
+       <b-nav-item-dropdown class="nav-items" text="PROJECTS" right>
+        <b-dropdown-item v-bind:to="'bwself'">B&W SELF-PORTRAITS</b-dropdown-item>
+        <b-dropdown-item href="#">PINK SHEET</b-dropdown-item>
+        <b-dropdown-item href="#">JACOB RIIS</b-dropdown-item>
+        <b-dropdown-item href="#">BIGGIE LOVES YOU</b-dropdown-item>
+        <b-dropdown-item href="#">LAST VACATION</b-dropdown-item>
+
+      </b-nav-item-dropdown>
+      <!-- <b-nav-item class="nav-items" href="#">PROJECTS</b-nav-item> -->
+      <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT</b-nav-item>
+      <b-nav-item class="nav-items" href="#">SERVICES</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'contact'">CONTACT</b-nav-item>
       <!-- <b-nav-form>
         <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search"/>
         <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
@@ -61,9 +70,11 @@
             </svg>
    </div>
    <div class="col-3">
+     
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#AEFF14" points="198 98,4 27,303 0,0 0" />
             </svg>
+            
    </div>
    </div>
  </div>  
@@ -72,9 +83,11 @@
 <!-- navbar-1.vue -->
     <router-view></router-view>
     <b-col md="4" class="fixed-bottom ml-auto">
+      
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#FF69B4" points="198 98,4 27,303 0,0 0" height="2%"/>
             </svg>
+    
    </b-col>
       <!-- <div class="row fixed-bottom"> -->
       

@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-
+import About from '@/components/About'
+import Bwself from '@/components/Bwself'
+import Contact from '@/components/Contact'
 Vue.use(Router)
 
 export default new Router({
@@ -10,6 +12,23 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/bwself',
+      name: 'Bwself',
+      component: Bwself
+    },
+
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     }
+
   ]
 })
