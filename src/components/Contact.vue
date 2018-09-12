@@ -11,12 +11,7 @@
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
+  
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
@@ -38,40 +33,40 @@
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      form: {
-        email: '',
-        name: '',
-        food: null,
-        checked: []
-      },
-      foods: [
-        { text: 'Select One', value: null },
-        'Carrots', 'Beans', 'Tomatoes', 'Corn'
-      ],
-      show: true
-    }
-  },
-  methods: {
-    onSubmit (evt) {
-      evt.preventDefault()
-      alert(JSON.stringify(this.form))
-    },
-    onReset (evt) {
-      evt.preventDefault()
-      /* Reset our form values */
-      this.form.email = ''
-      this.form.name = ''
-      this.form.food = null
-      this.form.checked = []
-      /* Trick to reset/clear native browser form validation state */
-      this.show = false
-      this.$nextTick(() => { this.show = true })
-    }
-  }
-}
+// export default {
+//   data () {
+//     return {
+//       form: {
+//         email: '',
+//         name: '',
+//         food: null,
+//         checked: []
+//       },
+//       foods: [
+//         { text: 'Select One', value: null },
+//         'Carrots', 'Beans', 'Tomatoes', 'Corn'
+//       ],
+//       show: true
+//     }
+//   },
+//   methods: {
+//     onSubmit (evt) {
+//       evt.preventDefault()
+//       alert(JSON.stringify(this.form))
+//     },
+//     onReset (evt) {
+//       evt.preventDefault()
+//       /* Reset our form values */
+//       this.form.email = ''
+//       this.form.name = ''
+//       this.form.food = null
+//       this.form.checked = []
+//       /* Trick to reset/clear native browser form validation state */
+//       this.show = false
+//       this.$nextTick(() => { this.show = true })
+//     }
+//   }
+// }
 </script> 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
