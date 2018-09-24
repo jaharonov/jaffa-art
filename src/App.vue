@@ -32,7 +32,7 @@
         <b-dropdown-item href="#">PINK SHEET</b-dropdown-item>
         <b-dropdown-item href="#">JACOB RIIS</b-dropdown-item>
         <b-dropdown-item href="#">BIGGIE LOVES YOU</b-dropdown-item>
-        <b-dropdown-item href="#">LAST VACATION</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'lastvacation'">LAST VACATION</b-dropdown-item>
 
       </b-nav-item-dropdown>
       <!-- <b-nav-item class="nav-items" href="#">PROJECTS</b-nav-item> -->
@@ -78,11 +78,12 @@
    </div>
    </div>
  </div>  
+ <div class="row p-5"></div>
    
    
 <!-- navbar-1.vue -->
     <router-view></router-view>
-    <b-col md="4" class="fixed-bottom ml-auto">
+    <b-col md="4" class="absolute-bottom ml-auto">
       
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#FF69B4" points="198 98,4 27,303 0,0 0" height="2%"/>
@@ -94,7 +95,7 @@
    
     <footer>
       <br/>
-       <span class="p-5"> ©JAFFA AHARONOV 2018</span>
+       <span class="m-5"> ©JAFFA AHARONOV 2018</span>
     </footer>
     <!-- </div> -->
     
@@ -128,9 +129,9 @@ export default {
   color: rgb(218, 248, 162);
 }
 footer {
-  position: fixed; 
+  position: relative; 
   left: 0;
-  bottom: 0;
+  // bottom: 0;
   width: 100%;
   background-color: #AEFF14;
   text-align: left;

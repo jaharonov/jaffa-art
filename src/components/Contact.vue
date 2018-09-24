@@ -1,24 +1,10 @@
 <template>
   <div class="hello">
-    <div class="m-5">
-      <div class="row p-5"></div>
-  <img src="../assets/self-1-svg.svg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3 pt-5" width="90%" height="auto" />
+    <div class="p-5">
+      <div class="row pt-5"></div>
+  <!-- <img src="../assets/self-1-svg.svg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3 pt-5" width="90%" height="auto" /> -->
   <h1>CONTACT</h1>
-  <form name="contact" method="POST" netlify>
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+  <p>If you'd like to contact me, please send me an email at <a href="mailto: &#105;&#110;&#102;&#111;&#064;&#106;&#097;&#102;&#102;&#097;&#097;&#104;&#097;&#114;&#111;&#110;&#111;&#118;&#046;&#099;&#111;&#109;">&#105;&#110;&#102;&#111;&#064;&#106;&#097;&#102;&#102;&#097;&#097;&#104;&#097;&#114;&#111;&#110;&#111;&#118;&#046;&#099;&#111;&#109;</a></p>
   <!-- <img src="../assets/riotbear-9.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
   <img src="../assets/riotbear-8.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
   <img src="../assets/riotbear-7.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
@@ -33,40 +19,7 @@
 </template>
 
 <script>
-// export default {
-//   data () {
-//     return {
-//       form: {
-//         email: '',
-//         name: '',
-//         food: null,
-//         checked: []
-//       },
-//       foods: [
-//         { text: 'Select One', value: null },
-//         'Carrots', 'Beans', 'Tomatoes', 'Corn'
-//       ],
-//       show: true
-//     }
-//   },
-//   methods: {
-//     onSubmit (evt) {
-//       evt.preventDefault()
-//       alert(JSON.stringify(this.form))
-//     },
-//     onReset (evt) {
-//       evt.preventDefault()
-//       /* Reset our form values */
-//       this.form.email = ''
-//       this.form.name = ''
-//       this.form.food = null
-//       this.form.checked = []
-//       /* Trick to reset/clear native browser form validation state */
-//       this.show = false
-//       this.$nextTick(() => { this.show = true })
-//     }
-//   }
-// }
+
 </script> 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

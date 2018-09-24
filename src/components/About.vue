@@ -2,8 +2,8 @@
   <div class="hello">
     <div class="m-5">
       <div class="row p-5"></div>
-  <p>Jaffa is...</p>
-  <img src="../assets/self-1-svg.svg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3 pt-5 animated pulse infinite" width="100%" height="auto" />
+  
+  <img src="../assets/self-1-1.svg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3 pt-5 animated pulse infinite" width="50%" height="auto" />
   <!-- <svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
  Created with Method Draw - http://github.com/duopixel/Method-Draw/
  <defs>
