@@ -1,19 +1,33 @@
 <template>
-  <div class="hello">
-    <div class="m-5" id ="bw-images">
+      <div class="m-5">
     <div class="row p-5"></div>
-      <img v-for="image in images" :src="image.src" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto"/>
-
-  <!-- <img src="../assets/riotbear-10.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3 pt-5" width="90%" height="auto" />
-  <img src="../assets/riotbear-9.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
-  <img src="../assets/riotbear-8.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
-  <img src="../assets/riotbear-7.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
-  <img src="../assets/riotbear-4.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
-  <img src="../assets/riotbear-3.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" />
-  <img src="../assets/riotbear-2.jpg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3" width="90%" height="auto" /> -->
-</div>
-    
-  </div> 
+    <b-container p-5>
+        
+        <h1>{{ message | capitalize }}</h1>
+        <div class="row p-3"></div>
+        <b-row>
+            <b-col lg="2"></b-col>
+            <b-col lg="8">
+                <p>{{ text }}</p>
+            <!-- {{ text }} -->
+            
+            </b-col>
+        <b-col lg="2"></b-col>
+        </b-row>
+    </b-container>
+    <!-- <div v-for="image in images"> -->
+    <b-container>
+        <b-row>
+        
+<b-col lg="4" v-for="image in images">
+<b-img v-img :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3" />
+</b-col>
+        
+        </b-row>
+    </b-container>
+  <!-- </div> -->
+  </div>
+  
 </template>
 
 <script>
@@ -21,6 +35,8 @@ export default {
 
   data () {
     return {
+      text: 'self portraits...',
+      message: 'Black and White Self Portraits',
       images: [
         { src: './static/riotbear-2.jpg' },
         { src: './static/riotbear-3.jpg' },
@@ -34,3 +50,6 @@ export default {
   }
 }
 </script>
+<style>
+
+</style>

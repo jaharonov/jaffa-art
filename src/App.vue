@@ -150,7 +150,15 @@ footer {
 font-family: 'Montserrat Alternates', sans-serif;
 
 }
+
+
 @import './styles/custom-bootstrap.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+</style>
+
+<style>
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 </style>

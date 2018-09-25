@@ -6,8 +6,10 @@ import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import VueImg from 'v-img'
 
 Vue.use(BootstrapVue)
+Vue.use(VueImg)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
