@@ -40,6 +40,7 @@
 </template>
 
 <script>
+
 export default {
   data () {
     return {
@@ -109,4 +110,5 @@ h1 {
 p {
   text-align: justify;
 }
+
 </style>

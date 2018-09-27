@@ -58,5 +58,26 @@ $font-family-base: $font-family-sans-serif;
 $enable-shadows: false;
 $enable-gradients: true;
 
+.prev-v-img[data-v-5928e1c7],
+.next-v-img[data-v-5928e1c7] {
+  color: #FF69B4;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  margin-top: -12.5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #FF69B4;
+  z-index: 1000;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+
 
 

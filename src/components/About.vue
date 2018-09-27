@@ -1,11 +1,15 @@
 <template>
   <div class="hello">
     <div class="m-5">
-      <div class="row p-5"></div>
+      <div class="row p-3"></div>
   <img src="../assets/self-1-1.svg" center fluid blank-color="#bbb" alt="img" class="my-3 pt-5" width="25%" height="auto" />
   
 </div>
-    
+    <b-container>
+      <div class="row p-3">
+        Jaffa Aharonov is a web developer, photographer, performer, and videographer. 
+      </div>
+    </b-container> 
     
 
   </div> 

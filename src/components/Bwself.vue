@@ -20,7 +20,7 @@
         <b-row>
         
 <b-col lg="4" v-for="image in images">
-<b-img v-img :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3" />
+<b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3" />
 </b-col>
         
         </b-row>
