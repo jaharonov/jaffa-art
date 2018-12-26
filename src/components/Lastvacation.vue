@@ -1,18 +1,18 @@
 <template>
       <div class="m-5">
-    <div class="row p-5"></div>
-    <b-container p-5>
-        
-        <h1>{{ message | capitalize }}</h1>
+    <b-container>
+       <div class="row"> 
+        <h3 class="headings">{{ message | capitalize }}</h3>
+       </div>
         <div class="row p-3"></div>
         <b-row>
-            <b-col lg="2"></b-col>
-            <b-col lg="8">
+            
+            <b-col>
                 <p>This photo series is a collaborative part of a larger body of work by <a :href="url">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were all shot in Utah, New Mexico, Arizona, and Nevada.</p>
             <!-- {{ text }} -->
             
             </b-col>
-        <b-col lg="2"></b-col>
+        
         </b-row>
     </b-container>
     <!-- <div v-for="image in images"> -->
@@ -20,7 +20,7 @@
         <b-row>
         
 <b-col lg="4" v-for="image in images">
-<b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3" />
+<b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3 pics" />
 </b-col>
         
         </b-row>
@@ -111,4 +111,10 @@ p {
   text-align: justify;
 }
 
+</style>
+
+<style scoped>
+a {
+  color: #FF69B4;
+}
 </style>

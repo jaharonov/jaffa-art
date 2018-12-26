@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+
 
   </head>
   <div id="app" variant="transparent">
@@ -16,7 +18,7 @@
   
   <b-navbar-toggle target="nav_collapse" class="nav-items" id="menu">MENU</b-navbar-toggle>
 
-  <b-navbar-brand href="#" class="mb-5" id="h1-name">JAFFA AHARONOV</b-navbar-brand>
+  <b-navbar-brand href="/" class="mb-5" id="h1-name">JAFFA AHARONOV</b-navbar-brand>
 
   <b-collapse is-nav id="nav_collapse">
 
@@ -28,42 +30,23 @@
     <b-navbar-nav class="ml-auto">
  
        <b-nav-item-dropdown class="nav-items" text="PROJECTS" right>
-        <b-dropdown-item v-bind:to="'bwself'">B&W SELF-PORTRAITS</b-dropdown-item>
-        <b-dropdown-item href="#">PINK SHEET</b-dropdown-item>
-        <b-dropdown-item href="#">JACOB RIIS</b-dropdown-item>
-        <b-dropdown-item href="#">BIGGIE LOVES YOU</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'self'">SELF-PORTRAITS</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'winter'">WINTER</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'riis'">JACOB RIIS</b-dropdown-item>
+        <!-- <b-dropdown-item href="#">BIGGIE LOVES YOU</b-dropdown-item> -->
         <b-dropdown-item v-bind:to="'lastvacation'">LAST VACATION</b-dropdown-item>
 
       </b-nav-item-dropdown>
       <!-- <b-nav-item class="nav-items" href="#">PROJECTS</b-nav-item> -->
       <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT</b-nav-item>
       <b-nav-item class="nav-items" href="#">SERVICES</b-nav-item>
-      <b-nav-item class="nav-items" v-bind:to="'contact'">CONTACT</b-nav-item>
-      <!-- <b-nav-form>
-        <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search"/>
-        <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-      </b-nav-form>
-
-      <b-nav-item-dropdown text="Lang" right>
-        <b-dropdown-item href="#">EN</b-dropdown-item>
-        <b-dropdown-item href="#">ES</b-dropdown-item>
-        <b-dropdown-item href="#">RU</b-dropdown-item>
-        <b-dropdown-item href="#">FA</b-dropdown-item>
-      </b-nav-item-dropdown>
-
-      <b-nav-item-dropdown right>
-        <template slot="button-content">
-          <em>User</em>
-        </template>
-        <b-dropdown-item href="#">Profile</b-dropdown-item>
-        <b-dropdown-item href="#">Signout</b-dropdown-item>
-      </b-nav-item-dropdown> -->
+      <b-nav-item class="nav-items" v-bind:to="'collab'">COLLABS/ETC.</b-nav-item>
     </b-navbar-nav>
 
   </b-collapse>
 </b-navbar>
 </header>
-<div class="row" id="svg-thing">
+<div class="row svg-thing">
 <div class="col-3">
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#FF69B4" points="198 98,4 27,303 0,0 0" />
@@ -83,7 +66,7 @@
    
 <!-- navbar-1.vue -->
     <router-view></router-view>
-    <b-col md="4" class="absolute-bottom ml-auto">
+    <b-col md="4" class="absolute-bottom ml-auto svg-thing">
       
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#FF69B4" points="198 98,4 27,303 0,0 0" height="2%"/>
@@ -93,7 +76,7 @@
       <!-- <div class="row fixed-bottom"> -->
       
    
-    <footer>
+    <footer type="primary" variant="success" class="p-3 footer fixed-bottom">
       <br/>
        <span class="m-5"> ©JAFFA AHARONOV 2018</span>
     </footer>
@@ -133,7 +116,7 @@ footer {
   left: 0;
   // bottom: 0;
   width: 100%;
-  background-color: #AEFF14;
+  // background-color: #AEFF14;
   text-align: left;
   font-family: 'Montserrat Alternates', sans-serif;
 
@@ -151,14 +134,25 @@ font-family: 'Montserrat Alternates', sans-serif;
 
 }
 
+.headings {
+font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p {
+font-family: 'Sarabun', sans-serif;
+}
+
+.svg-thing {
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.pics:hover {
+  opacity: 0.7;
+}
 
 @import './styles/custom-bootstrap.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-</style>
-
-<style>
-h1 {
-  font-family: 'Montserrat Alternates', sans-serif;
-}
 </style>

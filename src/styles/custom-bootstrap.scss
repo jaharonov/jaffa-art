@@ -1,6 +1,8 @@
 // Import custom font from Google
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+// @import url('https://fonts.googleapis.com/css?family=Raleway');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+// @import url('https://fonts.googleapis.com/css?family=Sarabun');
+
 // Override / set color variables
 $white: #fff;
 $black: #000;
@@ -48,10 +50,11 @@ $badge-padding-y: 0.4em;
 $badge-font-weight: normal;
 
 // Override fonts
-$font-family-sans-serif: 'Raleway', sans-serif;
+// $font-family-sans-serif: 'Raleway', sans-serif;
+$font-family-sans-serif: 'Sarabun';
 $font-family-serif: Georgia, 'Times New Roman', Times, serif;
-$font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono',
-  'Courier New', monospace;
+// $font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono',
+//   'Courier New', monospace;
 $font-family-base: $font-family-sans-serif;
 
 // Set global options
@@ -79,5 +82,7 @@ $enable-gradients: true;
   cursor: pointer;
 }
 
-
+$link-color:                $primary;
+$link-decoration:           none !default;
+$link-hover-decoration:     none;
 
