@@ -25,17 +25,7 @@
         
         </b-row>
     </b-container>
-    <!-- <b-container>
-        <b-row>
-        <b-col lg="2"></b-col>
-<b-col lg="8">
-<b-img v-img :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3" />
-</b-col>
-        <b-col lg="2"></b-col>
-        </b-row>
-    </b-container> -->
   </div>
-  <!-- </div> -->
   
 </template>
 
