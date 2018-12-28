@@ -5,6 +5,9 @@ import Hello from '@/components/Hello'
 import About from '@/components/About'
 import Self from '@/components/Self'
 import Collab from '@/components/Collab'
+import Websites from '@/components/Websites'
+import Other from '@/components/Other'
+import Photo from '@/components/Photo'
 import Lastvacation from '@/components/Lastvacation'
 import Winter from '@/components/Winter'
 import Riis from '@/components/Riis'
@@ -51,6 +54,21 @@ export default new Router({
       path: '/riis',
       name: 'Riis',
       component: Riis
+    },
+    {
+      path: '/photo',
+      name: 'Photo',
+      component: Photo
+    },
+    {
+      path: '/other',
+      name: 'Other',
+      component: Other
+    },
+    {
+      path: '/websites',
+      name: 'Websites',
+      component: Websites
     }
 
   ]

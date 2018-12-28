@@ -34,8 +34,8 @@ export default {
   data () {
     return {
       message: 'Last Vacation Before the End of the World: Atomic Tourism',
-      text: `<p>This photo series is a collaborative part of a larger body of work by <a :href="url">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were all shot in Utah, New Mexico, Arizona, and Nevada.</p>`,
-      url: 'http://www.kelleymeister.com/',
+      text: `<p>This photo series is a collaborative part of a larger body of work by <a href="http://www.kelleymeister.com/" style="color: #FF69B4;">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were shot in Utah, New Mexico, Arizona, and Nevada.</p>`,
+      // url: 'http://www.kelleymeister.com/',
       images: [
         { src: './static/lv-1.jpg' },
         { src: './static/lv-2.jpg' },
@@ -76,31 +76,9 @@ export default {
 
       ]
     }
-  },
-
-  methods: {
-    triggerClick () {
-      alert('clicked for more!')
-    }
   }
 }
 </script>
-
-<style>
-img {
-    object-fit: contain;
-}
-
-h1 {
-    
-    text-transform: uppercase;
-}
-
-p {
-  text-align: justify;
-}
-
-</style>
 
 <style scoped>
 a {

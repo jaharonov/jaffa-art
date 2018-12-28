@@ -8,7 +8,7 @@
         <b-row class="p-3"></b-row>
         <b-row>
             <b-col>
-                <p class="text-left">{{ text }}</p>
+                <p class="text-left" v-html="text">{{ text }}</p>
             <!-- {{ text }} -->
             
             </b-col>
@@ -33,9 +33,8 @@
 export default {
   data () {
     return {
-    //   text: '<p>This photo series is a collaborative part of a larger body of work by <a :href="url">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were all shot in Utah, New Mexico, Arizona, and Nevada.</p>',
+      text: `<p>This series was taken with a 35mm film camera in northern Minnesota and the Twin Cities. These images have a stillness that, while shot in 2016, could be from a future that we haunt, but no longer are part of. This selection of work was exhibited in 2018 at the 801 Gallery in Minneapolis, MN.</p>`,
       message: 'IN WINTER',
-      url: 'http://www.kelleymeister.com/',
       images: [
         { src: './static/801-3.jpg' },
         { src: './static/801-4.jpg' },

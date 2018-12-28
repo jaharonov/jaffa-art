@@ -32,14 +32,16 @@
        <b-nav-item-dropdown class="nav-items" text="PROJECTS" right>
         <b-dropdown-item v-bind:to="'self'">SELF-PORTRAITS</b-dropdown-item>
         <b-dropdown-item v-bind:to="'winter'">WINTER</b-dropdown-item>
-        <b-dropdown-item v-bind:to="'riis'">JACOB RIIS</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'riis'">JACOB RIIS BEACH</b-dropdown-item>
         <!-- <b-dropdown-item href="#">BIGGIE LOVES YOU</b-dropdown-item> -->
-        <b-dropdown-item v-bind:to="'lastvacation'">LAST VACATION</b-dropdown-item>
-
+        <b-dropdown-item v-bind:to="'lastvacation'">ATOMIC TOURIST</b-dropdown-item>
       </b-nav-item-dropdown>
-      <!-- <b-nav-item class="nav-items" href="#">PROJECTS</b-nav-item> -->
+      <b-nav-item-dropdown class="nav-items" text="SERVICES" right>
+        <b-dropdown-item v-bind:to="'photo'">PHOTOGRAPHY</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'websites'">WEBSITES</b-dropdown-item>
+        <b-dropdown-item v-bind:to="'other'">OTHER</b-dropdown-item>
+      </b-nav-item-dropdown>
       <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT</b-nav-item>
-      <b-nav-item class="nav-items" href="#">SERVICES</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'collab'">COLLABS/ETC.</b-nav-item>
     </b-navbar-nav>
 
