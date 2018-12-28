@@ -58,10 +58,10 @@
      
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#AEFF14" points="198 98,4 27,303 0,0 0" />
-            </svg>
-            
+            </svg>  
    </div>
    </div>
+   <b-col class="col-3"></b-col>
  </div>  
  <div class="row p-5"></div>
    
@@ -73,13 +73,13 @@
 <svg xmlns="http://www.w3.org/2000/svg">
                 <polygon fill="#FF69B4" points="198 98,4 27,303 0,0 0" height="2%"/>
             </svg>
-    
    </b-col>
-      <!-- <div class="row fixed-bottom"> -->
-      
-   
+      <!-- <div class="row fixed-bottom"> -->   
     <footer type="primary" variant="success" class="p-3 footer fixed-bottom">
       <br/>
+      <b-col md="4" class="instagram">
+        <a href="https://www.instagram.com/jafqueen/" type="primary" target="_blank"><b-img src="/static/instagram-4-48.png"/></a>
+   </b-col>
        <span class="m-5"> ©JAFFA AHARONOV 2018</span>
     </footer>
     <!-- </div> -->
@@ -147,6 +147,12 @@ font-family: 'Sarabun', sans-serif;
 .svg-thing {
   position: absolute;
   opacity: 0.5;
+  z-index: -1;
+}
+
+.instagram {
+  position: absolute;
+  opacity: 0.8;
   z-index: -1;
 }
 
