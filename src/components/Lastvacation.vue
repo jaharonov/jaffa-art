@@ -1,25 +1,24 @@
 <template>
       <div class="m-5">
+    <!-- <div class="row p-5"></div> -->
     <b-container>
-       <div class="row"> 
-        <h3 class="headings">{{ message | capitalize }}</h3>
-       </div>
-        <div class="row p-3"></div>
+        <b-row class="p-3">
+        <h3 class="headings text-left">{{ message | capitalize }}</h3>
+        </b-row>
+        <b-row class="p-3"></b-row>
         <b-row>
-            
             <b-col>
-                <p>This photo series is a collaborative part of a larger body of work by <a :href="url">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were all shot in Utah, New Mexico, Arizona, and Nevada.</p>
+                <p class="text-left" v-html="text">{{ text }}</p>
             <!-- {{ text }} -->
             
             </b-col>
-        
         </b-row>
     </b-container>
     <!-- <div v-for="image in images"> -->
-        <b-container>
+    <b-container>
         <b-row>
         
-<b-col lg="4" v-for="image in images">
+<b-col lg="4" v-for="image in images" :key="image.id">
 <b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3 pics" />
 </b-col>
         
@@ -34,8 +33,8 @@
 export default {
   data () {
     return {
-    //   text: '<p>This photo series is a collaborative part of a larger body of work by <a :href="url">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were all shot in Utah, New Mexico, Arizona, and Nevada.</p>',
-      message: 'Last Vacation Before the End of the World',
+      message: 'Last Vacation Before the End of the World: Atomic Tourism',
+      text: `<p>This photo series is a collaborative part of a larger body of work by <a :href="url">Kelley Meister</a>. These images are an exploration and critique of atomic tourism, and were all shot in Utah, New Mexico, Arizona, and Nevada.</p>`,
       url: 'http://www.kelleymeister.com/',
       images: [
         { src: './static/lv-1.jpg' },

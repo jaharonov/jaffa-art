@@ -1,25 +1,24 @@
 <template>
       <div class="m-5">
+    <!-- <div class="row p-5"></div> -->
     <b-container>
-       <div class="row"> 
-        <h3 class="headings">{{ message | capitalize }}</h3>
-       </div>
-        <div class="row p-3"></div>
+        <b-row class="p-3">
+        <h3 class="headings text-left">{{ message | capitalize }}</h3>
+        </b-row>
+        <b-row class="p-3"></b-row>
         <b-row>
-            
             <b-col>
-                <p>These images have a stillness that, while shot in 2016, could be from a future that we haunt, but no longer are part of.</p>
+                <p class="text-left">{{ text }}</p>
             <!-- {{ text }} -->
             
             </b-col>
-        
         </b-row>
     </b-container>
     <!-- <div v-for="image in images"> -->
-        <b-container>
+    <b-container>
         <b-row>
         
-<b-col lg="4" v-for="image in images">
+<b-col lg="4" v-for="image in images" :key="image.id">
 <b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3 pics" />
 </b-col>
         

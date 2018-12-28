@@ -126,7 +126,6 @@ footer {
   // font-family: 'Audiowide', cursive;
   font-family: 'Faster One', cursive;
 
-
 }
 
 .nav-items {
@@ -136,6 +135,7 @@ font-family: 'Montserrat Alternates', sans-serif;
 
 .headings {
 font-family: 'Montserrat Alternates', sans-serif;
+text-transform: uppercase;
 }
 
 p {

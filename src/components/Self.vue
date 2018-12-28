@@ -2,25 +2,23 @@
       <div class="m-5">
     <!-- <div class="row p-5"></div> -->
     <b-container>
-        <div class="row p-3">
+        <b-row class="p-3">
         <h3 class="headings text-left">{{ message | capitalize }}</h3>
-        </div>
-        <div class="row p-3"></div>
+        </b-row>
+        <b-row class="p-3"></b-row>
         <b-row>
-            <b-col lg="2"></b-col>
-            <b-col lg="8">
-                <p>{{ text }}</p>
+            <b-col>
+                <p class="text-left">{{ text }}</p>
             <!-- {{ text }} -->
             
             </b-col>
-        <b-col lg="2"></b-col>
         </b-row>
     </b-container>
     <!-- <div v-for="image in images"> -->
     <b-container>
         <b-row>
         
-<b-col lg="4" v-for="image in images">
+<b-col lg="4" v-for="image in images" :key="image.id">
 <b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3 pics" />
 </b-col>
         
@@ -37,7 +35,7 @@ export default {
   data () {
     return {
       text: 'self portraits...',
-      message: 'Self-Portraits',
+      message: 'SELF-PORTRAITS',
       images: [
         { src: './static/pink-self-1.jpg' },
         { src: './static/pink-self-2.jpg' },
