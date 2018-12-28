@@ -7,7 +7,7 @@
 <p><a href="https://vimeo.com/294866045">Wuthering Heights Onesie</a> from <a href="https://vimeo.com/user39447217">jaffa</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   <!-- <img src="../assets/self-1-svg.svg" center fluid-grow  blank-color="#bbb" alt="img" class="my-3 pt-5" width="90%" height="auto" /> -->
 </div>
-      <div class="col-md-6 pt-2 pl-5">
+      <div class="col-md-6 pt-2">
         <b-card title="UPCOMING"
           bg-variant="primary" 
           style="opacity:.7;"
