@@ -34,7 +34,7 @@ export default {
   data () {
     return {
       message: 'Other Werk',
-      text: `<p>I am available for video documentation, a/v installation and consultation, and video transcription. If you think you have other work I might be interested in, feel free to inquire. I am also a professional trans person <i>*eye roll, but for real...*</i> and work in healthcare.</p>`,
+      text: `<p>I am available for video documentation, a/v installation and consultation, and video transcription. If you think you have other work I might be interested in, feel free to inquire.</p>`,
       // url: 'http://www.kelleymeister.com/',
       images: [
       ]
