@@ -77,7 +77,19 @@ export default {
         { src: './static/work-39.jpg' },
         // { src: './static/work-40.jpg' },
         { src: './static/work-41.jpg' },
-        { src: './static/work-42.jpg' }
+        { src: './static/work-42.jpg' },
+        { src: './static/work-43.jpg' },
+        { src: './static/work-44.jpg' },
+        { src: './static/work-45.jpg' },
+        { src: './static/work-46.jpg' },
+        { src: './static/work-47.jpg' },
+        { src: './static/work-48.jpg' },
+        { src: './static/work-49.jpg' },
+        { src: './static/work-50.jpg' },
+        { src: './static/work-51.jpg' },
+        { src: './static/work-52.jpg' },
+        { src: './static/work-53.jpg' },
+        { src: './static/work-54.jpg' }
 
       ]
     }
