@@ -34,7 +34,7 @@ export default {
   data () {
     return {
       message: 'Photo Work',
-      text: `<p>I am available for photo gigs, including performance documentation, portraits, celebrations, etc. Rates vary. Please <a href="mailto:info@jaffaaharonov.com" style="color:#FF69B4">email</a> me to discuss your needs!</p>`,
+      text: `<p>I am available for photo gigs, including performance documentation, portraits, celebrations, etc. Rates vary. Please <a href="mailto:jaharonov@gmail.com" style="color:#FF69B4">email</a> me to discuss your needs!</p>`,
       // url: 'http://www.kelleymeister.com/',
       images: [
         { src: './static/work-1.jpg' },
