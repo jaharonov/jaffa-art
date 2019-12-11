@@ -12,7 +12,7 @@
       <b-row id="about">
         <b-col cols="lg-6 p-3">
           <figure height="75%">
-  <b-img center src="/static/mctf-screenshot.png" fluid-grow/>
+  <b-img-lazy center src="/static/mctf-screenshot.png" fluid-grow/>
   <figcaption class="text-center"><p><a href="https://www.motorcitytapfest.com">Motor City Tap Fest</a></p></figcaption>
   </figure>
         </b-col>

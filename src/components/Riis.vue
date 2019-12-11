@@ -19,7 +19,7 @@
         <b-row>
         
 <b-col lg="4" v-for="image in images" :key="image.id">
-<b-img v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3 pics" />
+<b-img-lazy v-img:name :src="image.src" center fluid-grow blank-color="#FFB5DA" alt="img" class="my-3 pics" />
 </b-col>
         
         </b-row>
