@@ -15,7 +15,7 @@
         </div>
         <div class="col-lg-4"></div> -->
         <div class="p-3 text-justify">
-        <p>Jaffa Aharonov is a queer, trans, and Eurasian transmedia artist, photographer, and web developer/designer, with a relatively recent foray into movement/performance art. Currently based in Minneapolis, MN.  Originally from upstate NY, Jaffa grew up in the Ozarks of rural Missouri and has also lived in St. Louis and NYC. </p>
+        <p>Jaffa Aharonov is a queer, trans, and Eurasian transmedia artist, photographer, and web developer/designer, with a relatively recent foray into movement/performance art. Originally from upstate NY, Jaffa grew up in the Ozarks of rural Missouri and has also lived in St. Louis and NYC. Jaffa is currently based in Minneapolis, MN.</p>
         <p>Please email Jaffa at <a href="mailto:j.aharonov@gmail.com">j.aharonov@gmail.com</a>.</p>
         </div>
   </div> 
