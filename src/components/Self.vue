@@ -34,8 +34,7 @@ export default {
 
   data () {
     return {
-      text: `This ongoing collection of self-portraits is an act of love for all bodies. As a hairy semi-femme-ish bear-ish QTPOC, bodies like mine do not have enough representation.</p>
-      <p><i>I am very happy to discuss taking body positive portraits of you. </i>`,
+      text: `This ongoing collection of self-portraits is an act of love for all bodies. </i>`,
       message: 'SELF-PORTRAITS',
       images: [
         { src: './static/pink-self-1.jpg' },
