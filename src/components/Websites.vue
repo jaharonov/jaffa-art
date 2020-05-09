@@ -36,14 +36,14 @@
         </b-col>
     <b-col cols="lg-6 p-3">
           <figure height="75%">
-  <b-img center src="/static/north-screenshot.png" fluid-grow/>
-  <figcaption class="text-center"><p><a href="https://www.northbycurrent.com" target="_blank">North By Current</a></p></figcaption>
+  <b-img center src="/static/bottomsafe-screenshot.png" fluid-grow/>
+  <figcaption class="text-center"><p><a href="https://bottomsafe.com" target="_blank">BottomSafe</a></p></figcaption>
   </figure>
         </b-col>
           <b-col cols="lg-6 p-3">
           <figure height="75%">
   <b-img center src="/static/tdd-screenshot.png" fluid-grow/>
-  <figcaption class="text-center"><p><a href="https://www.northbycurrent.com" target="_blank">Tap Dance Detroit</a></p></figcaption>
+  <figcaption class="text-center"><p><a href="https://www.tapdancedetroit.org" target="_blank">Tap Dance Detroit</a></p></figcaption>
   </figure>
         </b-col>
         </b-row>

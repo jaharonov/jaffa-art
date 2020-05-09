@@ -17,10 +17,10 @@
           class="mb-2 headings">
           <span class="p-5"></span>
     <p class="card-text text-justify">
-      <b-list-group>
+      <!-- <b-list-group>
         <b-list-group-item>Jaffa is currently in rehearsals with <a href="http://www.aprilsellers.com">April Sellers Dance Collective</a></b-list-group-item>
-      </b-list-group>
-      <span class="p-5"></span>
+      </b-list-group> -->
+      <!-- <span class="p-5"></span> -->
       <b-list-group>
         <b-list-group-item>Visit again soon for more updates, upcoming shows, projects, and collaborations!</b-list-group-item>
       </b-list-group>
