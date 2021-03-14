@@ -80,7 +80,7 @@
       <b-col md="4" class="instagram">
         <a href="https://www.instagram.com/jafqueen/" type="primary" target="_blank"><b-img src="/static/instagram-4-48.png"/></a>
    </b-col>
-       <span class="m-5"> ©JAFFA AHARONOV 2019</span>
+       <span class="m-5"> ©JAFFA AHARONOV 2021</span>
     </footer>
     <!-- </div> -->
     
